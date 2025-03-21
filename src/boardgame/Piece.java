@@ -14,8 +14,4 @@ public class Piece {
         return position;
     }
 
-    @Override
-    public String toString() {
-        return "P";
-    }
 }
