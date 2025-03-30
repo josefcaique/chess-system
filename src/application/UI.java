@@ -15,6 +15,11 @@ public class UI {
     public static final String ANSI_WHITE = "\u001B[37m";
     public static final String ANSI_YELLOW = "\u001B[33m";
 
+    public static void clearScreen() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+    }
+
     public static ChessPosition readChessPosition(Scanner sc) {
         try {
             String s = sc.nextLine();
@@ -25,7 +30,7 @@ public class UI {
             throw new InputMismatchException("Error reading ChessPosition. Valid values are from a1 to h8");
         }
 
-}
+    }
 
     public static void printBoard(ChessPiece[][] pieces) {
         for (int i=0; i<pieces[0].length; i++){
