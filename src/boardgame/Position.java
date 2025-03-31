@@ -45,4 +45,8 @@ public class Position {
     public void setRow(int i) {
         this.row = i;
     }
+
+    public void setColumn(Integer column) {
+        this.column = column;
+    }
 }
