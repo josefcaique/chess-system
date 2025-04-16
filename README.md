@@ -61,15 +61,20 @@ chess_system/
 
 
 ## 🏁 Como executar
-
-1. Compile os arquivos:
+1. Clone o repositório:
    ```bash
-   javac src/application/Program.java
+   git clone https://github.com/josefcaique/chess_system.git
+   cd chess_system
+   ```
+   
+2. Compile os arquivos:
+   ```bash
+   javac src/application/Main.java
    ```
 
-2. Execute o programa:
+3. Execute o programa:
    ```bash
-   java application.Program
+   java application.Main
    ```
 
 ---
