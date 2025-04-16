@@ -1,4 +1,4 @@
-# ♟️ Chess Game
+# ♟️ Chess System
 
 Este projeto é uma simulação completa de um jogo de xadrez no terminal, desenvolvida 100% em Java puro, sem o uso de frameworks externos. A aplicação roda diretamente no console e permite partidas completas com todas as regras tradicionais implementadas.
 
