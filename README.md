@@ -1,95 +1,62 @@
-# ♟️ Chess System
+# ♟ Chess System
 
-Este projeto é uma simulação completa de um jogo de xadrez no terminal, desenvolvida 100% em Java puro, sem o uso de frameworks externos. A aplicação roda diretamente no console e permite partidas completas com todas as regras tradicionais implementadas.
+Um sistema de simulação de partidas de xadrez, desenvolvido inteiramente em Java puro, sem frameworks, com foco em regras reais e desafios práticos de programação orientada a objetos.
 
----
+## 📸 Exemplo do Jogo
 
-## 🚀 Funcionalidades
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="img1.png" width="30%" alt="Tabuleiro inicial">
+  <img src="img2.png" width="30%" alt="Movimentos possíveis realçados">
+  <img src="img3.png" width="30%" alt="Após um movimento">
+</div>
 
-- Movimentação de peças com regras oficiais de xadrez
-- Validação de jogadas
-- Detecção de **xeque** e **xeque-mate**
-- Suporte a jogadas especiais:
+## 🔍 Funcionalidades
+
+- Simulação de uma partida de xadrez no console
+- Visualização de movimentos possíveis de cada peça
+- Lista das peças capturadas
+- Número de rodadas
+- Regras especiais como:
   - Roque (castling)
-  - Captura en passant
+  - En passant
   - Promoção de peão
-- Alternância entre turnos
-- Exibição visual do tabuleiro no console com coordenadas
+  - Cheque e xeque-mate
 
----
+## 🛠 Tecnologias Utilizadas
 
-## 🛠️ Tecnologias Utilizadas
+- Java
 
-- Java (puro – sem frameworks)
+## 🧠 Conceitos abordados
 
----
+- Programação orientada a objetos
+- Encapsulamento, herança e polimorfismo
+- Tratamento de exceções
+- Manipulação de matrizes e listas
+- Enumerações
+- Boas práticas de codificação
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura de Pastas
 
 ```
-src/
-├── application/
-│   ├── Main.java
-│   └── UI.java
-├── boardgame/
-│   ├── Board.java
-│   ├── Position.java
-│   └── ...
-├── chess/
-│   ├── ChessMatch.java
-│   ├── ChessPiece.java
-│   ├── ChessPosition.java
-│   ├── ChessException.java
-│   ├── Color.java
-│   └── pieces/
-│       ├── King.java
-│       ├── Queen.java
-│       ├── Bishop.java
-│       ├── Knight.java
-│       ├── Rook.java
-│       └── Pawn.java
+chess_system
+├── src
+│   ├── application
+│   ├── boardgame
+│   └── chess
 ```
 
----
+## 🏁 Como executar
 
-## 💻 Como Executar Localmente
-
-1. Clone o repositório:
+1. Compile os arquivos:
    ```bash
-   git clone https://github.com/seu-usuario/chess-game.git
+   javac src/application/Program.java
    ```
 
-2. Navegue até o diretório:
+2. Execute o programa:
    ```bash
-   cd chess-game
+   java application.Program
    ```
 
-3. Compile e execute o projeto:
-   ```bash
-   javac src/application/Main.java
-   java application.Main
-   ```
-
-> Se estiver utilizando uma IDE como IntelliJ IDEA ou Eclipse, basta abrir o projeto e clicar em **Run** no arquivo `Main.java`.
-
 ---
 
-## 🖼️ Exemplo de Execução
-
-![Exemplo da simulação no console](caminho/para/screenshot.png)  
-*(Imagem exibindo o tabuleiro com as peças, coordenadas e jogadas no terminal)*
-
----
-
-## 👨‍💻 Autor
-
-- **Josef Caique**  
-[GitHub](https://github.com/seu-usuario) | [LinkedIn](https://www.linkedin.com/in/seu-perfil)
-
----
-
-## 📃 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais informações.
-
----
+Desenvolvido com ❤️ por Josef Caique
